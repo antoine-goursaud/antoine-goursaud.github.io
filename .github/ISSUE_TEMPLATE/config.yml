@@ -3,4 +3,17 @@ contact_links:
   - name: PaperMod Discussions
     url: https://github.com/adityatelange/hugo-PaperMod/discussions
     about: Please ask and answer questions/doubts here, DO NOT open an issue for questions.
-theme: ["PaperMod"]
+theme: [hugo-PaperMod]
+params:
+    profileMode:
+        enabled: true
+        title: Home
+        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageTitle: ProfileMode image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+          - name: Blog
+            url: posts
+          - name: Profile Mode
+            url: https://github.com/antoine-goursaud
